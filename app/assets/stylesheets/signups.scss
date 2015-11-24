@@ -25,15 +25,18 @@ h3{
 
 // welcome
 #welcome {
-  text-align: center;
   font-family: 'source sans pro';
 
   h1{
     font-family: 'amatic sc';
     color:#323434;
     font-size: 40px;
+    text-align: center;
   }
-
+  img {
+  position: relative;
+  left: 100px;
+  }
   hr {
     border-top:2px solid #323434;
   }
@@ -41,14 +44,15 @@ h3{
 
 // Route
 #route {
-  text-align: center;
   font-family: 'source sans pro';
+  text-align: center;
 
   h1{
     font-family: 'amatic sc';
     color:#323434;
     font-size: 40px;
   }
+
 
   hr {
     border-top:2px solid #323434;
@@ -57,13 +61,38 @@ h3{
 
 // safety
 #safety {
-  text-align: center;
   font-family: 'source sans pro';
 
   h1{
     font-family: 'amatic sc';
     color:#323434;
     font-size: 40px;
+    text-align: center;
+
+  }
+
+  h3{
+    text-align: center;
+  }
+
+  h4{
+    text-align: center;
+  }
+
+  hr {
+    border-top:2px solid #323434;
+  }
+}
+
+// new/edit
+#newedit {
+  font-family: 'source sans pro';
+
+  h1{
+    font-family: 'amatic sc';
+    color:#323434;
+    font-size: 40px;
+    text-align: center;
   }
 
   hr {

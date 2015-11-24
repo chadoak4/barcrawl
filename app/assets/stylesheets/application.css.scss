@@ -27,6 +27,32 @@ body {
   margin-bottom: 0px;
   background-color: #323434;
 }
+.nav > li > a {
+  font-size: 22px;
+  font-family: 'source sans pro';
+  color:#c6bdf0;
+  position: relative;
+  top: 20px;
+
+}
+.nav > li > a:link {
+  color: red;
+  }
+
+  /* visited link */
+.nav > li > a:visited {
+  color: #c6bdf0;
+  }
+
+  /* mouse over link */
+.nav > li > a:hover {
+    color: #ffffff;
+  }
+
+  /* selected link */
+.nav > li > a:active {
+    color: #c6bdf0;
+}
 
 // clock
 .flip-clock-wrapper {
@@ -75,4 +101,8 @@ body {
 }
 .flip-clock-divider .flip-clock-label{
   right: -65px;
+}
+
+td, th {
+  padding-left: 50px;
 }

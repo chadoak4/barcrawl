@@ -14,7 +14,6 @@
 //= require jquery_ujs
 //= require bootstrap-sprockets
 //= require flipclock.min
-//= require turbolinks
 //= require_tree .
 
   var clock;
