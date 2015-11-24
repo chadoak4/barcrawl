@@ -12,6 +12,7 @@
  *
  *= require_tree .
  *= require_self
+
  */
  @import "bootstrap-sprockets";
  @import "bootstrap";
@@ -105,13 +106,3 @@ body {
 td, th {
   padding-left: 50px;
 }
-
-// button .btn-primary .btn-lg1{
-//      background:none!important;
-//      border:none;
-//      padding:0!important;
-//      font: inherit;
-//      /*border is optional*/
-//      border-bottom:1px solid #444;
-//      cursor: pointer;
-// }
