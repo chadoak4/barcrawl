@@ -30,13 +30,12 @@ body {
 .nav > li > a {
   font-size: 22px;
   font-family: 'source sans pro';
-  color:#c6bdf0;
-  position: relative;
-  top: 20px;
+  display: block;
+  text-align: center;
 
 }
 .nav > li > a:link {
-  color: red;
+  color: #c6bdf0;
   }
 
   /* visited link */
@@ -105,4 +104,14 @@ body {
 
 td, th {
   padding-left: 50px;
+}
+
+button .btn-primary .btn-lg1{
+     background:none!important;
+     border:none;
+     padding:0!important;
+     font: inherit;
+     /*border is optional*/
+     border-bottom:1px solid #444;
+     cursor: pointer;
 }

@@ -1,54 +1,22 @@
-<p id="notice"><%= notice %></p>
+<div class="container" id="newedit">
+  <div class="row">
+  <br>
+    <h1 class="centered">Get Ready To Party!</h1>
+    <hr>
+    <div class="col-lg-offset-4 col-lg-4">
+      <p>
+        <strong>Name:</strong>
+        <%= @signup.name %>
+      </p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @signup.name %>
-</p>
+      <p>
+        <strong>Size:</strong>
+        <%= @signup.size %>
+      </p>
 
-<p>
-  <strong>Size:</strong>
-  <%= @signup.size %>
-</p>
+      <%= link_to 'Edit', edit_signup_path(@signup) %> |
+      <%= link_to 'Back', signups_path %>
+    </div>
 
-<p>
-  <strong>Guest1:</strong>
-  <%= @signup.guest1 %>
-</p>
-
-<p>
-  <strong>Size1:</strong>
-  <%= @signup.size1 %>
-</p>
-
-<p>
-  <strong>Guest2:</strong>
-  <%= @signup.guest2 %>
-</p>
-
-<p>
-  <strong>Size2:</strong>
-  <%= @signup.size2 %>
-</p>
-
-<p>
-  <strong>Guest3:</strong>
-  <%= @signup.guest3 %>
-</p>
-
-<p>
-  <strong>Size3:</strong>
-  <%= @signup.size3 %>
-</p>
-
-<p>
-  <strong>Guest4:</strong>
-  <%= @signup.guest4 %>
-</p>
-
-<p>
-  <strong>Size4:</strong>
-  <%= @signup.size4 %>
-</p>
-
-<%= link_to 'Edit', edit_signup_path(@signup) %> |
-<%= link_to 'Back', signups_path %>
+  </div><!-- row -->
+</div><!-- container --><p id="notice"><%= notice %></p>
