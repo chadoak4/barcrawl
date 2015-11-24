@@ -1,0 +1,78 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+ @import 'flipclock';
+ @import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono);
+// body
+body {
+  background-color: #E5E5E5;
+}
+// navbar
+.navbar {
+  height: 100%;
+  margin-bottom: 0px;
+  background-color: #323434;
+}
+
+// clock
+.flip-clock-wrapper {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: relative;
+  top: 30px;
+  right: 75px;
+ }
+.flip-clock-wrapper ul li a div div.inn {
+  color: #c6bdf0;
+  text-shadow: 0 1px 1px #000000;
+  background-color: #ddd;
+}
+.flip-clock-divider .flip-clock-label {
+  color:white;
+  text-shadow: 0 1px 1px #555;
+  font-size: 18px;
+}
+.flip-clock-wrapper ul {
+  width: 26px;
+  height: 52px;
+  margin: 0 2px;
+ }
+.flip-clock-wrapper ul li {
+  line-height: 52px;
+}
+.flip-clock-wrapper ul li a div div.inn {
+  border-radius: 3px;
+  font-size: 50px;
+}
+.flip-clock-wrapper ul li a div.down {
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.flip-clock-wrapper ul li a div.up:after {
+  top: 24px;
+  height: 2px;
+}
+.flip-clock-dot.bottom {
+  bottom: 75px;
+
+}
+.flip-clock-dot{
+  background-color: #ffffff;
+}
+.flip-clock-divider .flip-clock-label{
+  right: -65px;
+}
